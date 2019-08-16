@@ -1,0 +1,369 @@
+  @font-face {
+    font-family: HelveticaNeue; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueCyr-Bold.otf); /* Путь к файлу со шрифтом */
+ }
+  @font-face {
+    font-family: Helvetica; /* Имя шрифта */
+    src: url(fonts/HelveticaNeueCyr-ThinItalic.otf); /* Путь к файлу со шрифтом */
+ }
+  .Red_Block {
+    background-color:  rgb(222, 43, 36);
+    margin: 0 0 0 0;
+    padding: 110px 0 131px 0;
+    display: block; 
+  }
+
+  .Txt_Head {
+    font-size: 31px;
+    font-family: "HelveticaNeue";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.722;
+    text-align: center;
+    margin: 0 0 11px 0;
+  }
+
+  .Txt_Under_Head {
+    font-size: 16px;
+    font-family: "HelveticaNeue";
+    color: rgb(255, 255, 255);
+    line-height: 0.722;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+
+  .White_Line {
+    margin: 17px auto;
+    display: block;
+    padding: 0 0 30px 0;
+  }
+  
+  .Text_Block {
+    background-color: rgb(243, 94, 89);
+    width: 255px;
+    height: 253px;
+    font-size: 26px;
+    font-family: "HelveticaNeue";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;    
+    float: left; 
+  }
+ 
+  .Text_Block:hover {background-color:  rgb(222, 43, 36); }
+
+  .Image:hover {animation: pulse 4s infinite; }
+  
+  @keyframes pulse{
+    0%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+ 
+  p{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  
+  .Small_Txt { font-size: 15px;}
+
+  .Image_Block {
+    width: 255px;
+    height: 253px;
+    float: left;
+    display: block;
+    margin: auto;
+  }
+
+  .Image {
+    display:flex;
+    justify-content: center; /*центрируем элемент по горизонтали */
+    align-items: center; /* и вертикали */
+    width: 255px;
+    height: 253px;
+    overflow: hidden; /* если элемент больше блока-родителя – обрезаем лишнее */
+  }
+
+  .Icon {
+   padding: 74px 0 0 0;
+  }
+  
+  .Block {
+    text-align: center;
+    margin: auto;
+    display: table;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .Blue_Block {
+    background-color:  rgb(18, 135, 191);
+    height: 848px;
+    display: block;
+  }
+
+  .Blue_Txt {
+    font-size: 29px;
+    font-family: "HelveticaNeue";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.722;
+    text-align: center;
+    padding: 100px 0 0 0;
+  }
+
+  .Small_Blue_Txt {
+    font-size: 16px;
+    font-family: "HelveticaNeue";
+    color: rgb(255, 255, 255);
+    line-height: 0.722;
+    text-align: center;
+    padding: 10px 0 0 0;
+  }
+
+  .Ellipse {
+    text-align: center;
+    position: relative;
+  }
+
+  .Shape {
+    display: block;
+    margin: -41px auto;
+  }
+
+  .Exit {
+    display: block;
+    margin-left: 660px;
+    margin-block-start: 5px;
+  }
+
+  .Form {
+    text-align: center;
+    position: relative;
+    margin: 0 px auto;
+    background-image: url(image\\Shape11.png);
+    background-repeat: no-repeat;
+    width: 683px;
+    height: 479px;
+    margin: 445px auto;
+  }
+
+  .Form_Txt {
+    font-size: 15px;
+    font-family: "Helvetica";
+    color: rgb(130, 130, 130);
+    line-height: 1.467;
+    text-align: center;
+    width		: 100%;   
+    padding-block-start: 20px;
+    display: block;
+  }
+
+  .Input_Form { margin-block-start: 20px;}
+
+  .Form_Txt1 {
+    font-size: 15px;
+    font-family: "Helvetica";
+    color: rgb(130, 130, 130);
+    line-height: 1.467;
+    text-align: center;
+    width		: 100%;
+  }
+  
+  .Form_Input {
+  display: block;
+  text-align: center;
+  margin: -400px auto;
+  }
+
+  .Submit_Now {
+    width: 165px;
+    height: 50px;
+    border: 3px solid rgb(222, 43, 36);
+    border-radius: 4px;
+    margin: 0 auto;
+    background-color: rgb(222, 43, 36);
+    font-size: 19px;
+    font-family: "Helvetica";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.294;
+    text-align: center;
+    margin-block-start: 36px;
+  }
+
+  .Submit_Now:hover {
+    background-color:  white; 
+    border: 3px solid rgb(222, 43, 36);
+    color: rgb(222, 43, 36);
+  }
+
+  .Black_Block {
+      background-color:  rgb(42, 42, 42);
+      margin: 0 0 0 0;
+      display: block;
+      height:auto;
+  }
+  
+  .Get_In_touch {
+    font-size: 29px;
+    font-family: "HelveticaNeue";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 0.759;
+    text-align: center;
+    padding-block-start: 88px;
+  }
+  
+  .Contact {
+    text-align:center;
+    margin: 0 auto;
+    display: block;
+    height: 50px;
+  }
+  
+.Image_Social { padding-block-start: 12px;}
+
+.google-pluse  {  
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 3px solid rgb(81,81,81);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  margin-left: 20px;
+}
+
+.twitter  {  
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 3px solid rgb(81,81,81);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  margin-left: 20px;
+}
+
+.instagram  {  
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 3px solid rgb(81,81,81);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  margin-left: 20px;
+}
+.facebook  {  
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: 3px solid rgb(81,81,81);
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+.google-pluse:hover {border: 3px solid rgb(222,43,36);}
+
+.twitter:hover {border: 3px solid rgb(222,43,36);}
+
+.instagram:hover {border: 3px solid rgb(222,43,36);}
+
+.facebook:hover {border: 3px solid rgb(222,43,36);}
+
+.Submit_Email:hover {border: 3px solid rgb(222,43,36);}
+
+.Buttons {
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  height: auto;
+  padding-block-start: 30px;
+}
+
+.Subscribe {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(206, 206, 206);
+  line-height: 1.571;
+  text-align: center;
+  padding-block-start: 35px;
+}
+
+.Email {
+  text-align: center;
+  padding-block-start: 33px;
+}
+
+.Footer {
+  background-color: rgb(81, 81, 81);
+}
+
+.Cssauthor {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(206, 206, 206);
+  line-height: 1.929;
+  text-align: center;
+  padding-block-start: 27px;
+  padding-block-end: 30px;
+}
+
+
+.Submit_Email {
+  width: 155px;
+  height: 55px;
+  border: 3px solid rgb(81,81,81);
+  border-radius: 5px;
+  margin: 0 auto;
+  background-color: rgb(42, 42, 42);
+  font-size: 17px;
+  font-family: "Helvetica";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.294;
+  text-align: center;
+  margin-block-end: 83px;
+  margin-block-start: 27px;
+}
+   
+.Input_Email {
+  background-color: rgb(81,81,81);
+  border: none;
+  width: 683px;
+  height: 55px;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(206, 206, 206);
+  line-height: 1.571;
+  text-align: left;
+}
+
+.Input_Name {
+  border-radius: 4px;
+  border: 1px solid rgb(176, 176, 176);
+  width: 448px;
+  height: 50px;
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: rgb(176, 176, 176);
+  line-height: 4.286;
+  text-align: left;
+  margin-block-start: 10px;
+}
+
+   
+  
